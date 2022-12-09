@@ -6,15 +6,15 @@ const BookList = () => {
   const { books } = useContext(BookContext);
   
   return books.length ? (  
-    <div className="book-list">
-      <ul>
+    <div className="m-[1.25rem]">
+      <ul className="p-0 list-none ">
         { books.map((book) => {
           return( <BookDetails book={book} key={book.id} />)
         })}
       </ul>
     </div>
   ) : (
-    <div className="empty">No books to read.</div>
+    <div className="text-center m-[1.25rem]">No books to read :)</div>
   )
 }
  

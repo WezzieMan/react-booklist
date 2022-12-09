@@ -13,7 +13,7 @@ const BookForm = () => {
   }
 
   return (  
-    <form onSubmit={handleSubmit}>
+    <form className='p-[1.25rem]' onSubmit={handleSubmit}>
       <input 
         type="text" 
         placeholder='book title' 
