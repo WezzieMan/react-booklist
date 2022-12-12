@@ -5,7 +5,7 @@ const BookDetails = ({book}) => {
   const { dispatch } = useContext(BookContext);
 
   return (  
-    <li className="hover:opacity-[0.7] hover:line-through bg-[#0094C6] p-[0.6rem] 
+    <li className="hover:opacity-[0.7] hover:line-through bg-[#663399] p-[0.6rem] 
     cursor-pointer rounded-md my-[0.6rem] mx-0" 
     onClick={() => dispatch({type: 'REMOVE_BOOK', id:book.id})}
     >

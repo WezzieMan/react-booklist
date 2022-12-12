@@ -5,14 +5,14 @@
 @layer components {
   input[type='text'] {
     @apply w-[100%] p-[0.625rem] box-border
-     my-[6px] mx-0 bg-[#004258] 
+     my-[6px] mx-0 bg-[#4B0082] 
      text-[#fff] border-none rounded-md;
     }
     
     input[type='submit']{
-    @apply my-[0.625rem] mx-auto bg-[#76b6cc]
+    @apply my-[0.625rem] mx-auto bg-[#9370DB]
      border-none rounded-xl py-[6px] px-[2.5rem]
-     block text-[#F5F6F7] hover:bg-[#004258]
+     block text-[#F5F6F7] hover:bg-[#4B0082]
     };
   body {
     margin: 0;
@@ -21,7 +21,7 @@
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #005E7C;
+    background: #8A2BE2;
   }
 };
 

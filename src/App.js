@@ -5,7 +5,7 @@ import BookContextProvider from "./contexts/BookContext";
 
 function App() {
   return (
-    <div className="bg-[#0081AC] my-[3rem] mx-auto 
+    <div className="bg-[#483D8B] my-[3rem] mx-auto 
     w-[90%] max-w-[800px] text-[#eee] rounded-[3rem]"
     >
       <BookContextProvider>
